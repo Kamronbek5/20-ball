@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Outfit", sans-serif;
+}
+
+button {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1260px;
+    width: 100%;
+    margin: 35px auto 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__nav {
+    display: flex;
+    gap: 115px;
+}
+
+.nav__link {
+    font-size: 18px;
+    color: #171717;
+    font-weight: 600;
+    transition: .5s;
+}
+
+.nav__link:hover {
+    color: #9E090F;
+}
+
+.sigkor {
+    display: flex;
+    gap: 30px;
+}
+
+.sign {
+    font-size: 18px;
+    color: #fff;
+    font-weight: 700;
+    padding: 8px 28px;
+    border-radius: 25px;
+    background-color: #9E090F;
+}
+
+.chick {
+    display: flex;
+}
+
+.chick__title {
+    font-size: 78px;
+    width: 570px;
+}
+
+.chicken {
+    color: #9E090F;
+}
+
+.chick__text {
+    font-size: 18px;
+    color: #5A5A5A;
+    line-height: 34px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.check__menu {
+    font-size: 18px;
+    color: #fff;
+    border: none;
+    background-color: #9E090F;
+    border-radius: 77px;
+    padding: 14px 54px 14px 54px;
+    margin-right: 10px;
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+.check__btn {
+    font-weight: 500;
+    font-size: 18px;
+    color: #171717;
+    border: none;
+    background-color: #F3F3F3;
+    border-radius: 77px;
+    padding: 14px 54px 14px 54px;
+}
+
+.salads {
+    display: flex;
+    margin-top: 100px;
+    gap: 25px;
+}
+
+.salad {
+    width: 222px;
+    height: 265.53px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 4.35px 43.53px 0px #0000001A;
+    border-radius: 22.85px;
+    padding:  0 25px 25px 25px;
+}
+
+.salad:nth-child(2) {
+    background-color: #9E090F;
+}
+
+.salad > img {
+    margin-top: -70px;
+    width: 200px;
+    height: 204px;
+    margin-bottom: -20px;
+}
+
+.salad__title {
+    font-size: 19.59px;
+    line-height: 26.12px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.salad__title2 {
+    font-size: 19.59px;
+    line-height: 26.12px;
+    text-align: center;
+    font-weight: 600;
+    color: #fff;
+}
+
+.calper {
+    display: flex;
+    gap: 30px;
+    margin: 10px 0;
+}
+
+.cal, .per {
+    color: #7D7D7D;
+    line-height: 26.12px;
+    font-size: 13.06px;
+    font-weight: 500;
+}
+
+.cal2, .per2 {
+    color: #fff;
+    line-height: 26.12px;
+    font-size: 13.06px;
+    font-weight: 500;
+}
+
+.priceplus {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.price {
+    color: #171717;
+    font-size: 17.41px;
+    font-weight: 600;
+    line-height: 26.12px;
+}
+
+.price2 {
+    color: #fff;
+    font-size: 17.41px;
+    font-weight: 600;
+    line-height: 26.12px;
+}
+
+.plus__red {
+    color: white;
+    padding: 0.5px 7.58px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: #9E090F;
+}
+
+.plus__white {
+    color: #9E090F;
+    padding: 0.5px 7.58px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.chick__right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.chick__right__img {
+    margin-left: -30px;
+}
+
+.union {
+    position: absolute;
+    top: 0;
+    right: 220px;
+    z-index: -1;
+    /* width: 1042px; */
+    /* height: 1047px; */
+}
+
+.conform {
+    color: #9E090F;
+}
+
+.check {
+    margin-top: -50px;
+    box-shadow: 0px 4.35px 43.53px 0px #0000001A;
+    padding: 8px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.chick__right__title {
+    font-size: 16px;
+    position: relative;
+
+}
+
+.check > img {
+    width: 35px;
+    background-color: #7DC94F;
+    padding: 9px 7px;
+    border-radius: 50%;
+}
+
+.disc {
+    position: absolute;
+    top: 110px;
+    left: 50px;
+    box-shadow: 0px 4.35px 43.53px 0px #0000001A;
+    padding: 15px;
+    border-radius: 10px;
+    z-index: 999;
+    background-color: #fff;
+}
+
+.disc > img {
+    position: absolute;
+}
+
+.five > h1 {
+    color: #171717;
+    font-size: 25px;
+    margin-bottom: -3px;
+}
+
+.five {
+    display: flex;
+    justify-content: space-between;
+}
+
+.five > img {
+    margin-right: -12px;
+    margin-top: -9px;
+}
+
+.disc > h2 {
+    font-size: 15px;
+}
+
+.discount {
+    color: #9E090F;
+}
